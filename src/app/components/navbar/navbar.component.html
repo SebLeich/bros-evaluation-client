@@ -8,6 +8,7 @@
         <mat-icon class="language" matTooltip="Sprachauswahl">language</mat-icon>
         <span class="flag-icon flag-icon-de"></span>
     </div>
-    <mat-icon class="register-icon" matTooltip="Registrieren Sie sich">group_add</mat-icon>
-    <mat-icon class="login-icon" matTooltip="Melden Sie sich an">person</mat-icon>
+    <mat-icon *ngIf="!loginFlag" class="register-icon" matTooltip="Registrieren Sie sich">group_add</mat-icon>
+    <mat-icon *ngIf="!loginFlag" class="login-icon" matTooltip="Melden Sie sich an" (click)="openLoginDialog()">person</mat-icon>
+    <mat-icon *ngIf="loginFlag" class="logout-icon" matTooltip="Abmelden" (click)="logout()">power_settings_new</mat-icon>
 </div>

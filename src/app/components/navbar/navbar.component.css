@@ -68,7 +68,15 @@
     width: auto;
     cursor: pointer;
 }
-.language:hover, .register-icon:hover, .login-icon:hover {
+.logout-icon {
+    color: #d72940;
+    padding: 12px;
+    font-size: 32px;
+    height: auto;
+    width: auto;
+    cursor: pointer;
+}
+.language:hover, .register-icon:hover, .login-icon:hover, .logout-icon:hover {
     color: #d74081;
     transition: .5s;
 }

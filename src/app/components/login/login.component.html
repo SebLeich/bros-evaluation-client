@@ -1,0 +1,26 @@
+<div class="body">
+    <div class="head-row">
+        <div class="headline">
+            Willkommen zurück
+        </div>
+        <mat-icon class="closer" (click)="closeDialog()">
+            clear
+        </mat-icon>
+    </div>
+    <div class="sub-title">
+        Melden Sie sich mit ihrer E-Mail Adresse/ Passwort Kombination an.
+    </div>
+    <form [formGroup]="formGroup">
+        <mat-form-field class="width">
+            <mat-label>E-Mail Adresse</mat-label>
+            <input matInput placeholder="z.B. maxmustermann@test.de" formControlName="email" (keyup.enter)="login()">
+        </mat-form-field>
+        <mat-form-field class="width">
+            <mat-label>Passwort</mat-label>
+            <input matInput placeholder="z.B. 123456" formControlName="password" type="password" (keyup.enter)="login()">
+        </mat-form-field>
+    </form>
+    <div class="login-button" (click)="login()">
+        Anmelden
+    </div>
+</div>
