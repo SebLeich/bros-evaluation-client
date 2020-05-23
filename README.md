@@ -1,3 +1,3 @@
 # BROS evaluation client
 
-![First draft of the client](src/assets/preview1.JPG)
+![First draft of the client](src/assets/preview1.png)
