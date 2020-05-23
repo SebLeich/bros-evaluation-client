@@ -1,6 +1,47 @@
 <div class="body">
     <app-navigation></app-navigation>
     <div class="main-content">
-
+        <div class="tile evaluate-bros">
+            <div class="content">
+                <div class="tile-headline">
+                    Evaluation von BROS
+                </div>
+                <div>
+                    Helfen Sie uns dabei, BROS zu evaluieren und die Stärken und Schwächen unseres Ansatzes kennenzulernen.
+                </div>
+                <div class="button" (click)="gotoQuestionnaire()">
+                    Zum Fragebogen
+                </div>
+            </div>
+        </div>
+        <div class="tile about-bros">
+            <div class="content">
+                <div class="tile-headline">
+                    Business Role-Object Specification <span class="highlighted">BROS</span>
+                </div>
+                <div>
+                    Die Business Role-Object Specification ist ein rollenbasierter Modellierungsansatz. 
+                    Als solcher nutzt er sowohl statische Strukturkomponenten als auch dynamische Prozesskomponenten. 
+                    Dadurch ist BROS in der Lage, die Kommunikation innerhalb einer Domäne abzubilden.
+                </div>
+                <div class="button" (click)="gotoQuestionnaire()">
+                    Weitere Informationen
+                </div>
+            </div>
+        </div>
+        <div class="tile about-sequal">
+            <div class="content">
+                <div class="tile-headline">
+                    Semiotic Quality Framework <span class="highlighted">SEQUAL</span>
+                </div>
+                <div>
+                    
+                </div>
+                <div class="button" (click)="gotoQuestionnaire()">
+                    Weitere Informationen
+                </div>
+            </div>
+        </div>
     </div>
+    <app-newsfeed></app-newsfeed>
 </div>>

@@ -8,13 +8,17 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { StartpageComponent } from './components/startpage/startpage.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
+import { QuestionnaireComponent } from './components/questionnaire/questionnaire.component';
+import { NewsfeedComponent } from './components/newsfeed/newsfeed.component';
 
 @NgModule({
   declarations: [
     RootComponent,
     NavbarComponent,
     StartpageComponent,
-    NavigationComponent
+    NavigationComponent,
+    QuestionnaireComponent,
+    NewsfeedComponent
   ],
   imports: [
     BrowserModule,
