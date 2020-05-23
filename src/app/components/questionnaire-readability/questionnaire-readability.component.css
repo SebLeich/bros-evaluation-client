@@ -3,7 +3,7 @@
     margin-bottom: 20px;
 }
 .image {
-    width: 80%;
+    width: 90%;
     margin-bottom: 20px;
     border: 1px solid #e91e63;
     border-radius: 3px;
@@ -11,9 +11,12 @@
 }
 .questionnaire-question-container {
     display: flex;
+    padding: 4px;
+    font-size: 1rem;
 }
 .questionnaire-question-container .slider {
     margin-right: 10px;
+    align-self: center;
 }
 .questionnaire-question-container .text {
     align-self: center;

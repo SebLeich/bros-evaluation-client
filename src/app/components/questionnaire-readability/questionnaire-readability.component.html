@@ -3,12 +3,30 @@
         Bitte betrachten Sie das Modell und selektieren Sie anschließend die entsprechenden Aussagen
     </div>
     <img class="image" src="/assets/readability.JPG" />
-    <div class="questionnaire-question-container">
-        <div class="slider">
-            <mat-slide-toggle></mat-slide-toggle>
+    <form [formGroup]="formGroup">
+        <div class="questionnaire-question-container">
+            <div class="slider">
+                <mat-slide-toggle formControlName="isReadable"></mat-slide-toggle>
+            </div>
+            <div class="text">
+                Ich kann alle Modellkomponenten (z.B. Textfelder) klar erkennen
+            </div>
         </div>
-        <div class="text">
-            Ich kann alle Modellkomponenten (z.B. Textfelder) klar erkennen und von anderen Elementen angrenzen
+        <div class="questionnaire-question-container">
+            <div class="slider">
+                <mat-slide-toggle formControlName="isDistinghishable"></mat-slide-toggle>
+            </div>
+            <div class="text">
+                Ich kann alle Modellkomponenten (z.B. Textfelder und Szenen) klar voneinander unterscheiden
+            </div>
         </div>
-    </div>
+        <div class="questionnaire-question-container">
+            <div class="slider">
+                <mat-slide-toggle formControlName="connectorsAreClear"></mat-slide-toggle>
+            </div>
+            <div class="text">
+                Ich kann alle Beziehungen zwischen den Elementen klar nachverfolgen
+            </div>
+        </div>
+    </form>
 </div>

@@ -1,4 +1,46 @@
 .body {
-    overflow-y: scroll;
     height: calc(100vh - 56px);
+    display: flex;
+}
+.questionnaire {
+    flex: 1;
+    height: 100%;
+    overflow-y: scroll;
+}
+.stats {
+    width: 400px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+}
+.spacer {
+    flex: 1;
+}
+.stats-headline {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #d74081;
+    text-transform: uppercase;
+}
+.temp-save {
+    text-align: center;
+}
+.temp-save .inner {
+    text-align: center;
+    margin-top: 40px;
+    background-color: #e91e63;
+    color: white;
+    padding: 8px 16px;
+    display: inline-block;
+    border-radius: 3px;
+}
+.overview-label {
+    font-size: 1.3rem;
+    color: gray;
+    text-align: center;
+    padding: 10px 0px 40px 0px;
+}
+.overview-label .finished {
+    color: #799c7d;
+    font-size: 2rem;
 }

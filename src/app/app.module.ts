@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { ChartsModule } from 'ng2-charts';
 import { MatIconModule } from '@angular/material/icon';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatStepperModule } from '@angular/material/stepper';
@@ -14,6 +15,7 @@ import { QuestionnaireComponent } from './components/questionnaire/questionnaire
 import { NewsfeedComponent } from './components/newsfeed/newsfeed.component';
 import { QuestionnaireStartComponent } from './components/questionnaire-start/questionnaire-start.component';
 import { QuestionnaireReadabilityComponent } from './components/questionnaire-readability/questionnaire-readability.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -27,13 +29,15 @@ import { QuestionnaireReadabilityComponent } from './components/questionnaire-re
     QuestionnaireReadabilityComponent
   ],
   imports: [
+    ChartsModule,
     BrowserModule,
     AppRoutingModule,
     MatIconModule,
     BrowserAnimationsModule,
     MatTooltipModule,
     MatStepperModule,
-    MatSlideToggleModule
+    MatSlideToggleModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [RootComponent]

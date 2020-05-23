@@ -1,36 +1,56 @@
 <div class="body">
-    <mat-vertical-stepper #stepper>
-        <mat-step>
-            <ng-template matStepLabel>Start</ng-template>
-            <app-questionnaire-start></app-questionnaire-start>
-        </mat-step>
-        <mat-step>
-            <ng-template matStepLabel>Übersichtlichkeit</ng-template>
-            <app-questionnaire-readability></app-questionnaire-readability>
-        </mat-step>
-        <mat-step>
-            <ng-template matStepLabel>Richtigkeit</ng-template>
-        </mat-step>
-        <mat-step>
-            <ng-template matStepLabel>Vollständlichkeit</ng-template>
-        </mat-step>
-        <mat-step>
-            <ng-template matStepLabel>Verständlichkeit I</ng-template>
-        </mat-step>
-        <mat-step>
-            <ng-template matStepLabel>Vollständlichkeit II</ng-template>
-        </mat-step>
-        <mat-step>
-            <ng-template matStepLabel>Akzeptanz</ng-template>
-        </mat-step>
-        <mat-step>
-            <ng-template matStepLabel>Tools</ng-template>
-        </mat-step>
-        <mat-step>
-            <ng-template matStepLabel>Vorteile</ng-template>
-        </mat-step>
-        <mat-step>
-            <ng-template matStepLabel>Abschluss</ng-template>
-        </mat-step>
-    </mat-vertical-stepper>
+    <div class="questionnaire">
+        <mat-vertical-stepper #stepper>
+            <mat-step>
+                <ng-template matStepLabel>Start</ng-template>
+                <app-questionnaire-start></app-questionnaire-start>
+            </mat-step>
+            <mat-step>
+                <ng-template matStepLabel>Übersichtlichkeit</ng-template>
+                <app-questionnaire-readability [formGroup]="formGroup"></app-questionnaire-readability>
+            </mat-step>
+            <mat-step>
+                <ng-template matStepLabel>Richtigkeit</ng-template>
+            </mat-step>
+            <mat-step>
+                <ng-template matStepLabel>Vollständlichkeit</ng-template>
+            </mat-step>
+            <mat-step>
+                <ng-template matStepLabel>Verständlichkeit I</ng-template>
+            </mat-step>
+            <mat-step>
+                <ng-template matStepLabel>Vollständlichkeit II</ng-template>
+            </mat-step>
+            <mat-step>
+                <ng-template matStepLabel>Akzeptanz</ng-template>
+            </mat-step>
+            <mat-step>
+                <ng-template matStepLabel>Tools</ng-template>
+            </mat-step>
+            <mat-step>
+                <ng-template matStepLabel>Vorteile</ng-template>
+            </mat-step>
+            <mat-step>
+                <ng-template matStepLabel>Abschluss</ng-template>
+            </mat-step>
+        </mat-vertical-stepper>
+    </div>
+    <div class="stats">
+        <div class="spacer"></div>
+        <div class="stats-headline">
+            Zusammenfassung
+        </div>
+        <div class="overview-label">
+            <span class="finished">{{doughnutChartData[0]}}</span>
+            <span class="seperator">/</span>
+            <span class="total">{{total}} Fragen beantwortet</span>
+        </div>
+        <canvas baseChart [data]="doughnutChartData" [colors]=backgroundColors [labels]="doughnutChartLabels"
+            [chartType]="'doughnut'" [options]="doughnutChartOptions">
+        </canvas>
+        <div class="temp-save">
+            <div class="inner">Ergebnisse zwischenspeichern</div>
+        </div>
+        <div class="spacer"></div>
+    </div>
 </div>

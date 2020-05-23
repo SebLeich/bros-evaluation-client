@@ -22,7 +22,18 @@
     height: auto;
     font-size: 30px;
     margin-right: 7px;
-    color: #ba6f8f;
+}
+.label .icon {
+    color: lightgray;
+}
+.label .icon.questionnaire {
+    color: #da4d8a;
+}
+.label .icon.bros {
+    color: #3576a1;
+}
+.label .icon.sequal {
+    color: #218d8c;
 }
 .label .headline {
     display: flex;
