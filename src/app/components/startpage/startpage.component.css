@@ -9,12 +9,6 @@
     overflow-y: scroll;
     flex-direction: column;
 }
-.evaluate-bros {
-    background: url(/assets/bros.JPG);
-}
-.about-bros {
-    background: url(/assets/abros.png);
-}
 .tile {
     flex: 1;
     background-size: cover;
