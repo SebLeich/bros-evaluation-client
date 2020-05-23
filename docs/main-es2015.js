@@ -320,7 +320,7 @@ NavigationComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefi
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "div", 7);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "div");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "mat-icon", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, "table_chart");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, "list_alt");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "div");
@@ -368,7 +368,7 @@ class NewsfeedComponent {
     }
 }
 NewsfeedComponent.ɵfac = function NewsfeedComponent_Factory(t) { return new (t || NewsfeedComponent)(); };
-NewsfeedComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NewsfeedComponent, selectors: [["app-newsfeed"]], decls: 22, vars: 0, consts: [[1, "body"], [1, "news"], [1, "headline"], [1, "date"], [1, "sub-title"]], template: function NewsfeedComponent_Template(rf, ctx) { if (rf & 1) {
+NewsfeedComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NewsfeedComponent, selectors: [["app-newsfeed"]], decls: 29, vars: 0, consts: [[1, "body"], [1, "news"], [1, "headline"], [1, "date"], [1, "sub-title"]], template: function NewsfeedComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -383,24 +383,35 @@ NewsfeedComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "Framed.io wurde bereitgestellt");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "TMLE Release");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "31. Juli 2019");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "30. Oktober 2019");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, " Framed.io ist ein Web-Editor f\u00FCr die Modellierung von BROS Modellen und kann ab sofort online genutzt werden. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, " Eine Taxonomie von Evaluationsans\u00E4tzen f\u00FCr Modellierungssprachen wurde vorgestellt um einen geeigneten Evaluationsansatz f\u00FCr BROS zu finden. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "BROS Release");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "Framed.io wurde bereitgestellt");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "01. Februar 2019");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "31. Juli 2019");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, " Die Spezifikationen von der rollenbasierten Modellierungssprache BROS wurden released. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, " Framed.io ist ein Web-Editor f\u00FCr die Modellierung von BROS Modellen und kann ab sofort online genutzt werden. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "BROS Release");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "01. Februar 2019");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, " Die Spezifikationen von der rollenbasierten Modellierungssprache BROS wurden released. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
