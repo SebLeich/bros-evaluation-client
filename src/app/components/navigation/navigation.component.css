@@ -1,0 +1,35 @@
+.body {
+    width: 280px;
+    background-color: white;
+    height: 100%;
+}
+.label {
+    padding: 10px 15px;
+    cursor: pointer;
+    display: flex;
+}
+.label:hover {
+    background-color: #c61862;
+    color: white;
+    transition: .6s;
+}
+.label .icon {
+    width: auto;
+    height: auto;
+    font-size: 30px;
+    margin-right: 7px;
+    color: #ba6f8f;
+}
+.label .headline {
+    display: flex;
+    align-self: center;
+    font-size: 1.2rem;
+}
+.label .sub-title {
+    padding: 5px 0px;
+    color: #595959;
+    font-size: .8rem;
+}
+.label:hover .icon, .label:hover .sub-title {
+    color: white;
+}
