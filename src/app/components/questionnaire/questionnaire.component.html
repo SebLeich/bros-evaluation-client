@@ -1,1 +1,36 @@
-<p>questionnaire works!</p>
+<div class="body">
+    <mat-vertical-stepper #stepper>
+        <mat-step>
+            <ng-template matStepLabel>Start</ng-template>
+            <app-questionnaire-start></app-questionnaire-start>
+        </mat-step>
+        <mat-step>
+            <ng-template matStepLabel>Übersichtlichkeit</ng-template>
+            <app-questionnaire-readability></app-questionnaire-readability>
+        </mat-step>
+        <mat-step>
+            <ng-template matStepLabel>Richtigkeit</ng-template>
+        </mat-step>
+        <mat-step>
+            <ng-template matStepLabel>Vollständlichkeit</ng-template>
+        </mat-step>
+        <mat-step>
+            <ng-template matStepLabel>Verständlichkeit I</ng-template>
+        </mat-step>
+        <mat-step>
+            <ng-template matStepLabel>Vollständlichkeit II</ng-template>
+        </mat-step>
+        <mat-step>
+            <ng-template matStepLabel>Akzeptanz</ng-template>
+        </mat-step>
+        <mat-step>
+            <ng-template matStepLabel>Tools</ng-template>
+        </mat-step>
+        <mat-step>
+            <ng-template matStepLabel>Vorteile</ng-template>
+        </mat-step>
+        <mat-step>
+            <ng-template matStepLabel>Abschluss</ng-template>
+        </mat-step>
+    </mat-vertical-stepper>
+</div>

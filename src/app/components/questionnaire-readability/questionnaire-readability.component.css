@@ -1,0 +1,20 @@
+.headline {
+    color: #3c3c3c;
+    margin-bottom: 20px;
+}
+.image {
+    width: 80%;
+    margin-bottom: 20px;
+    border: 1px solid #e91e63;
+    border-radius: 3px;
+    padding: 1px;
+}
+.questionnaire-question-container {
+    display: flex;
+}
+.questionnaire-question-container .slider {
+    margin-right: 10px;
+}
+.questionnaire-question-container .text {
+    align-self: center;
+}

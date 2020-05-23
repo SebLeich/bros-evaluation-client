@@ -3,6 +3,10 @@
     background-color: white;
     height: 100%;
 }
+.navigation-headline {
+    padding: 10px;
+    text-transform: uppercase;
+}
 .label {
     padding: 10px 15px;
     cursor: pointer;
