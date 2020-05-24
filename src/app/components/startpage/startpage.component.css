@@ -1,7 +1,11 @@
+.body-wrapper {
+    display: flex;
+}
 .body {
     display: flex;
     height: calc(100vh - 50px);
     background-color: #8d8d8d;
+    max-width: 1400px;
 }
 .main-content {
     display: flex;
@@ -42,8 +46,7 @@
 }
 .spacer {
     flex: 1;
-    border: 1px solid #dbdbdb;
-    border-left: 5px solid #ffffffed;
+    background-color: lightgray;
 }
 .tile .button {
     padding: 3px 8px;
